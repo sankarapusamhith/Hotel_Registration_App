@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Login</title>
+    <link rel="stylesheet" href="custom.css">
+   <style type="text/css"media="all">
+body{
+    margin:0;
+    padding: 0;
+    background: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 500px;
+    background:black;
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 30px;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    background: #fb2525;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: #000;
+    background: black;
+    transition: 0.2s ease;
+}
+.loginbox form{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+<script>document.getElementById("uma")</script>
+uma{width:100px;height:10px;background-color:red;border-radius:20px;}
+.loginbox form:hover
+{
+    color: #ffc107;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+   float:right;
+   }
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: black;
+}
+button{width:260px;height:40px;background-color:brown;border-radius:20px;}
+
+</style>
+<body>
+<nav>
+    <ul>
+
+      <li><a href="signup.html"> signup </a><li>
+      <li><a href="home.html"> Home </a><li>
+     
+    </ul>
+</nav>
+    <div class="loginbox">
+        <h1>Login Here</h1>
+        <form action="login.php" method="post">
+            <p>Username</p>
+            <input type="email" name="email" placeholder="Enter email" required >
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required >
+           
+             <a href="home page.html">
+            <button type="submit">Login</button></a>
+            <a href="#">Lost your password?</a><br>
+<br>
+            <a href="signup.html">Don't have an account?</a>
+        </form>
+        
+    </div>
+</body>
+</head>
+</html>

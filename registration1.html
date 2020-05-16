@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>registration</title>
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+ background: url(background.jpg);
+ background-size: cover;
+ background-position: center;
+border-radius: 20px;
+}
+h1{
+ background-color:white;
+}
+p{
+ color:white;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 25%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 20px;
+     background-color:transparent; 
+     color:white;
+     margin-left:550px;
+     background-position: center;
+     background: url(background.jpg);
+     background-size: cover;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  align:center;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+h1{text-align:center;font-family:san serif;background-color:transparent;color:white;border-radius:20px}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ border-radius:20px; overflow: hidden;margin-top:-20px;background-color:#C3BFBF;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+background-color:grey;
+}
+
+li a:hover {
+  background-color:black;
+}
+</style>
+<body>
+<h1><strong>resort registration</strong></h1><br>
+<ul>
+  <li><a href="about.html">about us</a></li>
+  <li><a href="home1.html">home</a></li>
+</ul>
+<div class="main">
+
+ <!--card -->
+
+<div class="card">
+<div class="title">
+ <h1>registration</h1>
+</div>
+<div class="des">
+<p>
+<form>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <label>Enter Email</label><br>
+    <input type="email" name="email"><br><br>
+</form>
+<form>
+   <legend>gender:</legend><br>
+   <input type="radio" name="gender" value="male" checked> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+   <input type="radio" name="gender" value="other"> Other<br>
+</form><br><br>
+<form>
+    <legend>accomdation:</legend>
+    <select name="beds required">
+    <option value="one">one bed</option>
+    <option value="two">two beddedrooms</option>
+    <option value="three">three beddedrooms</option>
+    <option value="hall">bighall</option>
+  </select>
+  <br><br>
+</form>
+<form>
+    <legend>hotels:</legend>
+    <select name="beds required">
+    <option value="one">marasa sarovar</option>
+    <option value="two">grandridge</option>
+    <option value="three">ramee guestline</option>
+    <option value="hall">pai viceroy</option>
+  </select>
+  <br><br>
+</form>
+   <label>duration of stay</label>
+<form>
+entering date
+	<input type="date" name="calender">
+</form><br>
+<form>
+leaving  date
+	<input type="date" name="calender">
+</form><br><br>
+<p>cost:10000/-</p>
+<div>
+<form method="get" action="pay.html">
+<button>pay now</button>
+</div>
+</div>
+</body>
+</html>
+
